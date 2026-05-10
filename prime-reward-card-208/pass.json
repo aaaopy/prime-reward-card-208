@@ -1,0 +1,183 @@
+{
+  "managementURL": "https://example.com/manage/SK042",
+  "changeSeatURL": "https://example.com/seats/SK042",
+  "purchaseWifiURL": "https://example.com/wifi/SK042",
+  "orderFoodURL": "https://example.com/meals/SK042",
+  "upgradeURL": "https://example.com/upgrade/SK042",
+  "purchaseAdditionalBaggageURL": "https://example.com/baggage/SK042",
+  "purchaseLoungeAccessURL": "https://example.com/lounge/SK042",
+  "requestWheelchairURL": "https://example.com/accessibility/wheelchair/SK042",
+  "registerServiceAnimalURL": "https://example.com/accessibility/service-animal/SK042",
+  "reportLostBagURL": "https://example.com/bags/lost/SK042",
+  "trackBagURL": "https://example.com/bags/SK042",
+  "transitProviderPhoneNumber": "+14155550101",
+  "transitProviderEmail": "support@example.com",
+  "transitProviderWebsiteURL": "https://example.com/airline",
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.mk.local",
+  "teamIdentifier": "9733K94JUG",
+  "serialNumber": "2A32F5770CBEBCCF",
+  "organizationName": "Prime Reward Card 208",
+  "description": "Apple Wallet pass project",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(16, 185, 129)",
+  "labelColor": "rgb(209, 250, 229)",
+  "boardingPass": {
+    "headerFields": [
+      {
+        "key": "h1",
+        "label": "GATE",
+        "value": "C18"
+      },
+      {
+        "key": "h2",
+        "label": "SEAT",
+        "value": "2A"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "from",
+        "label": "Hakodate",
+        "value": "HKD"
+      },
+      {
+        "key": "to",
+        "label": "Nagoya",
+        "value": "NGO"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "s1",
+        "label": "PASSENGER",
+        "value": "Holder 3311"
+      },
+      {
+        "key": "s2",
+        "label": "FLIGHT",
+        "value": "KA 120"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "dep",
+        "label": "BOARDS",
+        "value": "7:58 PM"
+      },
+      {
+        "key": "arr",
+        "label": "ARRIVES",
+        "value": "2:08 AM"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "b1",
+        "label": "Notes",
+        "value": "Arrive at the gate at least 30 minutes before departure.",
+        "dataDetectorTypes": []
+      }
+    ],
+    "transitType": "PKTransitTypeAir"
+  },
+  "logoText": "Prime Reward Card 208",
+  "semantics": {
+    "airlineCode": "KA",
+    "flightCode": "KA120",
+    "flightNumber": 120,
+    "confirmationNumber": "9X2K7Q",
+    "departureAirportCode": "HKD",
+    "departureAirportName": "San Francisco International Airport",
+    "departureCityName": "San Francisco",
+    "departureLocationTimeZone": "America/Los_Angeles",
+    "destinationAirportCode": "NGO",
+    "destinationAirportName": "John F. Kennedy International Airport",
+    "destinationCityName": "New York",
+    "destinationLocationTimeZone": "America/New_York",
+    "originalBoardingDate": "2026-05-10T12:58:55.139Z",
+    "originalDepartureDate": "2026-05-10T13:38:55.139Z",
+    "originalArrivalDate": "2026-05-10T19:08:55.139Z",
+    "currentDepartureDate": "2026-05-10T13:38:55.139Z",
+    "currentArrivalDate": "2026-05-10T19:08:55.139Z",
+    "passengerName": {
+      "givenName": "Holder",
+      "familyName": "3311"
+    },
+    "departureGate": "B14",
+    "departureTerminal": "2",
+    "departureLocation": {
+      "latitude": 37.6213,
+      "longitude": -122.379
+    },
+    "destinationGate": "A8",
+    "destinationTerminal": "4",
+    "destinationLocation": {
+      "latitude": 40.6413,
+      "longitude": -73.7781
+    },
+    "boardingGroup": "2",
+    "boardingSequenceNumber": "038",
+    "boardingZone": "A",
+    "ticketFareClass": "Economy",
+    "transitProvider": "Scandinavian Airlines",
+    "transitStatus": "On Time",
+    "securityScreening": "TSA PreCheck",
+    "priorityStatus": "Priority",
+    "membershipProgramName": "Kumo Miles",
+    "membershipProgramNumber": "SK123456789",
+    "membershipProgramStatus": "Gold",
+    "vehicleName": "Airbus A350",
+    "vehicleNumber": "SE-RSA",
+    "vehicleType": "Airplane",
+    "internationalDocumentsAreVerified": true,
+    "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
+    "passengerEligibleSecurityPrograms": [
+      "PKTransitSecurityProgramTSAPreCheck"
+    ],
+    "departureLocationSecurityPrograms": [
+      "PKTransitSecurityProgramTSAPreCheck",
+      "PKTransitSecurityProgramCLEAR"
+    ],
+    "destinationLocationSecurityPrograms": [
+      "PKTransitSecurityProgramTSAPreCheck"
+    ],
+    "loungePlaceIDs": [
+      "SK-SFO-LOUNGE"
+    ],
+    "passengerCapabilities": [
+      "PKPassengerCapabilityCarryon",
+      "PKPassengerCapabilityPriorityBoarding"
+    ],
+    "passengerServiceSSRs": [
+      "PETC"
+    ],
+    "passengerInformationSSRs": [
+      "INFT"
+    ],
+    "passengerAirlineSSRs": [
+      "SKY"
+    ],
+    "seats": [
+      {
+        "seatRow": "2",
+        "seatNumber": "A"
+      }
+    ],
+    "currentBoardingDate": "2026-05-10T12:58:55.139Z"
+  },
+  "preferredStyleSchemes": [
+    "semanticBoardingPass",
+    "boardingPass"
+  ],
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatCode128",
+      "message": "KA120-H-3311-2A",
+      "messageEncoding": "iso-8859-1",
+      "altText": "KA 120 / 2A"
+    }
+  ],
+  "webServiceURL": "https://example.invalid/passkit",
+  "authenticationToken": "0000000000000000"
+}
