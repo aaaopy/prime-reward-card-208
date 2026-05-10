@@ -25,50 +25,60 @@
   "boardingPass": {
     "headerFields": [
       {
-        "key": "h1",
-        "label": "GATE",
-        "value": "C18"
-      },
-      {
-        "key": "h2",
+        "key": "seat",
         "label": "SEAT",
         "value": "2A"
+      },
+      {
+        "key": "gate",
+        "label": "GATE",
+        "value": "B14"
       }
     ],
     "primaryFields": [
       {
         "key": "from",
-        "label": "Hakodate",
-        "value": "HKD"
+        "label": "Da Nang",
+        "value": "DAD"
       },
       {
         "key": "to",
-        "label": "Nagoya",
-        "value": "NGO"
+        "label": "Astana",
+        "value": "NQZ"
       }
     ],
     "secondaryFields": [
       {
-        "key": "s1",
+        "key": "passenger",
         "label": "PASSENGER",
         "value": "Holder 3311"
       },
       {
-        "key": "s2",
+        "key": "flight",
         "label": "FLIGHT",
-        "value": "KA 120"
+        "value": "DV5343"
       }
     ],
     "auxiliaryFields": [
       {
-        "key": "dep",
+        "key": "boards",
         "label": "BOARDS",
-        "value": "7:58 PM"
+        "value": "12:30 PM"
       },
       {
-        "key": "arr",
+        "key": "terminal",
+        "label": "TERM",
+        "value": "2"
+      },
+      {
+        "key": "group",
+        "label": "GROUP",
+        "value": "2"
+      },
+      {
+        "key": "arrives",
         "label": "ARRIVES",
-        "value": "2:08 AM"
+        "value": "12:08 AM"
       }
     ],
     "backFields": [
@@ -83,20 +93,17 @@
   },
   "logoText": "Prime Reward Card 208",
   "semantics": {
-    "airlineCode": "KA",
     "flightCode": "KA120",
-    "flightNumber": 120,
     "confirmationNumber": "9X2K7Q",
-    "departureAirportCode": "HKD",
-    "departureAirportName": "San Francisco International Airport",
-    "departureCityName": "San Francisco",
-    "departureLocationTimeZone": "America/Los_Angeles",
-    "destinationAirportCode": "NGO",
-    "destinationAirportName": "John F. Kennedy International Airport",
-    "destinationCityName": "New York",
-    "destinationLocationTimeZone": "America/New_York",
-    "originalBoardingDate": "2026-05-10T12:58:55.139Z",
-    "originalDepartureDate": "2026-05-10T13:38:55.139Z",
+    "departureAirportName": "Da Nang International Airport",
+    "departureCityName": "Da Nang",
+    "departureLocationTimeZone": "Asia/Ho_Chi_Minh",
+    "destinationAirportCode": "NQZ",
+    "destinationAirportName": "Astana Nursultan Nazarbayev International Airport",
+    "destinationCityName": "Astana",
+    "destinationLocationTimeZone": "Asia/Almaty",
+    "originalBoardingDate": "2026-05-15T05:30:00.000Z",
+    "originalDepartureDate": "2026-05-15T13:38:00.000Z",
     "originalArrivalDate": "2026-05-10T19:08:55.139Z",
     "currentDepartureDate": "2026-05-10T13:38:55.139Z",
     "currentArrivalDate": "2026-05-10T19:08:55.139Z",
@@ -107,20 +114,20 @@
     "departureGate": "B14",
     "departureTerminal": "2",
     "departureLocation": {
-      "latitude": 37.6213,
-      "longitude": -122.379
+      "latitude": 16.04392,
+      "longitude": 108.19937
     },
     "destinationGate": "A8",
     "destinationTerminal": "4",
     "destinationLocation": {
-      "latitude": 40.6413,
-      "longitude": -73.7781
+      "latitude": 51.022222,
+      "longitude": 71.466944
     },
     "boardingGroup": "2",
     "boardingSequenceNumber": "038",
     "boardingZone": "A",
     "ticketFareClass": "Economy",
-    "transitProvider": "Scandinavian Airlines",
+    "transitProvider": "SCAT Airlines",
     "transitStatus": "On Time",
     "securityScreening": "TSA PreCheck",
     "priorityStatus": "Priority",
@@ -146,14 +153,7 @@
       "SK-SFO-LOUNGE"
     ],
     "passengerCapabilities": [
-      "PKPassengerCapabilityCarryon",
-      "PKPassengerCapabilityPriorityBoarding"
-    ],
-    "passengerServiceSSRs": [
-      "PETC"
-    ],
-    "passengerInformationSSRs": [
-      "INFT"
+      "PKPassengerCapabilityCarryon"
     ],
     "passengerAirlineSSRs": [
       "SKY"
@@ -164,7 +164,10 @@
         "seatNumber": "A"
       }
     ],
-    "currentBoardingDate": "2026-05-10T12:58:55.139Z"
+    "currentBoardingDate": "2026-05-10T12:58:55.139Z",
+    "airlineCode": "DV",
+    "flightNumber": 5343,
+    "departureAirportCode": "DAD"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
